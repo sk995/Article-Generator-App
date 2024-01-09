@@ -4,8 +4,7 @@ from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
 from langchain_community.llms import HuggingFaceHub
 from langchain.memory import SimpleMemory
-# import pyper Clip for Copy Response Text
-import pyperclip as clip
+
 def css():
    return '''
 <style>
